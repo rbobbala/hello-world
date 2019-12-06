@@ -2,4 +2,4 @@ FROM tomcat:latest
 
 MAINTAINER CG-CLOUD TEAM
 
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY /var/lib/jenkins/workspace/docker-cicd-job/webapp/target/webapp.war /usr/local/tomcat/webapps
